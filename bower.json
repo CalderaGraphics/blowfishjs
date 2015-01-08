@@ -1,0 +1,33 @@
+{
+  "name": "blowfishjs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/CalderaGraphics/blowfishjs",
+  "authors": [
+    "Yannick Lohse <yannick.lohse@caldera.com>"
+  ],
+  "description": "Standalone blowfish implementation with ECB & CBC support.",
+  "main": "blowfish.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "blowfish",
+    "ecb",
+    "cbc",
+    "crypto",
+    "encryption"
+  ],
+  "license": "MIT",
+  "ignore": [
+	".gitignore",
+	"Gruntfile.js",
+	"LICENSE",
+	"package.json",
+	"README.md",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
