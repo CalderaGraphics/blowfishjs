@@ -721,7 +721,7 @@ Blowfish.prototype = {
   trimZeros: function(input) {
     return input.replace(/\0+$/g, "");
   }
-}
+};
 
 /**
  * @static
@@ -938,7 +938,7 @@ if (typeof define === 'function' && define.amd) {
 	define('Blowfish', Blowfish);
 } else {
 	var globalScope = typeof global !== 'undefined' ? global : this;
-	globalScope['Blowfish'] = Blowfish;
+	globalScope.Blowfish = Blowfish;
 }
 
 })();
